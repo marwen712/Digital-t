@@ -1,0 +1,53 @@
+<div class="class banner">
+    <div class="content">
+    <h1 class="container mt-3 mb-3">
+        Easy Shop 
+        <br><br>
+        Best Shop
+    </h1>
+    <br>
+    <a routerLink="menu">Commander maintenant <i class="bi bi-arrow-right"></i></a>
+</div>
+</div>
+<div class="container mt-5 mb-5">
+    <h1 class="text-center">comment obtenir <span class="highlight">le bon materiel</span> </h1>
+    <div class="row">
+        <!--one-->
+        <div class="col-lg-4 mt-2">
+            <div class="stepBox">
+            <h1>1</h1>
+            <p>selectionner votre choix </p>
+            </div>
+        </div>
+        <!--two-->
+        <div class="col-lg-4 mt-2">
+            <div class="stepBox">
+            <h1>2</h1>
+            <p>remplir les détails </p>
+            </div>
+        </div>
+        <!--three-->
+        <div class="col-lg-4 mt-2">
+            <div class="stepBox">
+            <h1>3</h1>
+            <p>commande livrée dans une minute</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!--devicebox-->
+<div class="class container mt-4 mb-4">
+        <h1 class="text-center"><span class="highlight">nouveautés des produits</span></h1>
+    <div class="row">
+        <div class="col-lg-4 mt-4" *ngFor="let dv of deviceData;index as i ">
+            <div class="deviceBox" *ngIf="i<=3">
+                <img src="{{dv.deviceImg}}" />
+                <h1 class="text-center">{{dv.deviceName}}</h1>
+                <p class="text-center">{{dv.devicePrice}} TND</p>
+
+            </div>
+        </div>
+    </div>
+    <a routerLink="menu" class="viewMoreBtn">voir plus <i class="bi bi-arrow-right"></i></a>
+
+</div>

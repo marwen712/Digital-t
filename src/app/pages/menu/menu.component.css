@@ -1,0 +1,25 @@
+.deviceBox {
+    padding: 10px 10px;
+}
+.deviceBox img {
+    width: 90%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 5px;
+
+}
+.deviceBox h1 {
+    font-size: 18px;
+    margin-top: 20px;
+    font-weight: bold;
+    
+}
+.buyBtn {
+   color: #000;
+   background-color: var(--primary-color);
+   padding: 10px 10px; 
+   text-decoration: none;
+   font-size: 16px;
+   border-radius: 5px;
+   cursor: pointer;
+}

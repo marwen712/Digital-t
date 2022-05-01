@@ -1,0 +1,16 @@
+<div class="container mt-5 mb-5">
+    <div class="row">
+        <div class="col-lg-4 " *ngFor="let dv of deviceData;index as i ">
+            <div class="deviceBox mt-3 mb-3 " >
+                <img src="{{dv.deviceImg}}" />
+                <h1 >{{dv.deviceName}}</h1>
+                <p>{{dv.deviceDetails}}</p>
+                <p>{{dv.devicePrice}} TND</p>
+            <br>
+                <a class="buyBtn "[routerLink]="['/menu',dv.id]">Buy Now &nbsp;<i class="bi bi-bag-fill"></i></a>
+            </div>
+        </div>
+    </div>
+
+</div>
+
