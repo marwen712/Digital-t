@@ -1,0 +1,88 @@
+{
+  "productList": [
+    {
+      "productName": "pc hp",
+      "category": "pc",
+      "prodImg": "C:\\fakepath\\download.jpg",
+      "price": 1111,
+      "description": "FDDDSFD",
+      "date": "2022-04-30T23:00:00.000Z",
+      "id": 1
+    },
+    {
+      "productName": "pc hp",
+      "category": "pc",
+      "prodImg": "C:\\fakepath\\download.jpg",
+      "price": 1111,
+      "description": "SFDFFDS",
+      "date": "2022-04-02T23:00:00.000Z",
+      "id": 2
+    },
+    {
+      "productName": "pc acer",
+      "category": "pc",
+      "prodImg": "C:\\fakepath\\download.jpg",
+      "price": 11111,
+      "description": "FFFFHFHGFHF",
+      "date": "2022-04-02T23:00:00.000Z",
+      "id": 3
+    },
+    {
+      "productName": "pc hp",
+      "category": "extra",
+      "prodImg": "C:\\fakepath\\download.jpg",
+      "price": 1111,
+      "description": "DFDSFDVVVVVVVVVVV",
+      "date": "2022-04-30T23:00:00.000Z",
+      "id": 4
+    },
+    {
+      "productName": "cxwcw",
+      "category": "mouse",
+      "prodImg": "C:\\fakepath\\download.jpg",
+      "price": 32132432,
+      "description": "DSVVCXVCXV",
+      "date": "2022-05-07T23:00:00.000Z",
+      "id": 5
+    },
+    {
+      "productName": "gjgj",
+      "category": "mouse",
+      "prodImg": "C:\\fakepath\\download.jpg",
+      "price": 4335435,
+      "description": "TYTTRYYYYYYYYYY",
+      "date": "2022-04-02T23:00:00.000Z",
+      "id": 6
+    },
+    {
+      "productName": "    nb,nb,",
+      "category": "pc",
+      "prodImg": "C:\\fakepath\\download.jpg",
+      "price": 2322,
+      "description": "VJJ??JHHJK",
+      "date": "2022-05-01T23:00:00.000Z",
+      "id": 7
+    }
+  ],
+  "signupUsers": [
+    {
+      "fullname": "marwen tabbabi",
+      "address": "lagare redeyef",
+      "email": "marwentabbabicpg@gmail.com",
+      "phone": 20506954,
+      "password": "1é3",
+      "id": 1
+    },
+    {
+      "fullname": "marwentabbabicpg@gmail.com",
+      "address": "marwentabbabicpg@gmail.com",
+      "email": "marwentabbabicpg@gmail.com",
+      "phone": 20506954,
+      "password": "123",
+      "id": 2
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
